@@ -1,0 +1,143 @@
+<html>
+<head>
+    <title>meu primeiro html</title>
+</head>
+<body>
+    <h1 id="0"><i> <strong>Introdução a HTML</strong>  </i></h1>
+    <hr>
+<h2>Índice</h2>
+    <ol>
+        <li><a href="#1">Ferramentas Utilizadas</a></li>
+        <li><a href="#2">Inspetor de elementos</a></li>
+        <li><a href="#3">Estrutura básica do html</a></li>
+        <li><a href="#4">Tags I</a></li>
+        <li><a href="#5">Tags II</a></li>
+        <li><a href="#6">Textos</a></li>
+        <li><a href="#7">Listas</a></li>
+        <li><a href="#8">Links</a></li>
+    </ol>
+<hr>
+
+    <h2 id="1">Ferramentas Utilizaadas</h2>
+    <small><a href="#0">Voltar ao topo</a></small>
+    <ul>
+        <li>Visual Studio Code</li>
+    
+    <p>Programa onde o código html será escrito, com a possibilidade de abrir no
+ navegador para ver o resultado e editar enquanto o site está aberto. </p>
+      <ul>
+        <li>Plug-ins:</li>
+        <ol>
+            <li>Live server</li>
+            <li>Emmet</li>
+        </ol>
+      </ul> 
+   
+       
+ </ul>
+    
+
+ <h2 id="2">Inspetor de elementos</h2>
+ <small><a href="#0">Voltar ao topo</a></small>
+<p>Ferramenta do desenvolvedor, acessível através de F12, ou "tres pontinhos"
+ ---> mais ferramentas ---> ferramentas do desenvolvedor</p>
+<p>Clicando no ícone de ponteiro do mouse sobre um quadrado no canto superior
+    esquerdo da tela da janela que se abre, permite inspecionar um determinado item
+do site para encontrá-lo no html e visualizar o código que o gera.</p>
+
+
+<h2 id="3">Estrutura básica do html</h2>
+<small><a href="#0">Voltar ao topo</a></small>
+
+    <p>primeiro, como convenção, toda primeira ou principal pagina de um site se chama
+        index.html</p>
+    <p>Uma página html consiste em uma estrutura de 3 partes: html, tag que inicia e 
+        encerra o código da página; cabeça (head) que serão coisas que vão carregar
+        antes do corpo do site, como o título; e corpo que apresenta os conteúdos do site
+        em si (body) </p>
+
+<h2 id="4">Tags I</h2>
+<small><a href="#0">Voltar ao topo</a></small>
+    <p>Tags são o que vem entre < e > para começar, e muitas vezes com < e /> para encerrar, por exemplo
+        a tag html, que começa com < html> e encerra com < / html>, mas nem todas encerram dessa forma,
+        como a tag < img / > e desempeham diversas funções, como as tags < h1> e < h2> para
+        títulos, < body > para delimitar o corpo do site, etc. </p>
+    <p>Exemplos de tags e suas funções:
+        <ul>
+            <li>< i > < / i > para escrever em <i>Itálico</i></li>
+            <li>< Strong > < / Strong > para escrever em <strong>Negrgito</strong></li>
+            <li>< img / > para inserir imagens</li>
+        </ul>
+    </p>
+
+
+<h2 id="5">Tags II</h2>
+<small><a href="#0">Voltar ao topo</a></small>
+    <h3>Atributos das tags</h3>
+    <p>Adicionam um atributo a tag, por exemplo, adicionando o atributo 'color' e "blue" para a tag
+        'strong' podemos mudar a cor do texto <strong style= color:blue>assim</strong>
+    </p>
+    <p>outro exemplo é usando a tag < input> com o atributo 'type', para selecionar 
+    o tipo de input, exemplos:</p>
+    <ul>
+        <li>Texto : <input type="text"> </li>
+        <p></p>
+        <li>Números: <input type="number"> </li>
+        <p></p>
+        <li>Cor: <input type="color"> </li>
+        <p></p>
+        <li>Senha: <input type="password"> </li>
+        <p></p>
+        <li>Data e hora: <input type="datetime-local"> </li>
+    </ul>
+   
+    <h2 id="6">Textos</h2>
+    <small><a href="#0">Voltar ao topo</a></small>
+    <p>Algumas tags são específicas para formatar texto, como as já citadas < h1>, < h2 >,
+    e assim sucessivamente até o < h6 > para diferentes níveis de título</p>
+    <p>A tag < p > serve para escrever um parágrafo.</p>
+    <p>A tag < blockquote > serve para destacar uma porção do texto
+    <blockquote>Assim, deixando esta porção em uma posição um pouco diferenciada
+    </blockquote></p>
+    <p>Além das já citadas < i > e < strong >, temos também < u >  para textos
+    <u>sublinhados</u>; a tag < mark > para textos <mark>destacados</mark>; e < sup > 
+    para caracteres <sup>sobrescritos</sup> e < sub > para <sub> subscritos</sub></p>
+
+
+    <h2 id="7">Listas</h2>
+    <small><a href="#0">Voltar ao topo</a></small>
+    <p>Existem dois tipos de listas:</p>
+    <ol>
+        <li>Ordenadas < ol ></li>
+        <li>Não ordenadas < ul ></li>
+    </ol>
+    <p>Nestas listas, para iniciar se usa as tags 'ol' ou 'ul'. Dentro destas listas
+        é preciso usar a tag < li > para adicionar intens na lista.
+    </p>
+       
+    <h2 id="8">Links</h2>
+    <small><a href="#0">Voltar ao topo</a></small>
+    <p>Algumas formas de colocar links no site:</p>
+    <p>usando a tag < a > com o atributo 'href' para incluir o site e um nome
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" 
+    title="O socialismo cresce">Exemplo link</a></p>
+        <p>A configuração básica dessa tag é a seguinte: <
+        a href = "link" target"_blank"</p>
+        <p>Neste caso, _blank programa a função para abrir o link em outra aba, 
+            que pode ser substituída por _self, para abrir  o link na aba atual.
+        </p>
+        <p>Adicionando title = "" podemos adicionar um texto que será exibido ao usuário
+            quando passa o mouse em cima do link, confira no link anterior, a frase
+            "O socialismo cresce"
+        </p>
+    <p>Também é possível usar o href para linkar a outra página do seu site, 
+        dessa vez optei por usar target = "_self" pois não está indo a um site
+        externo, e na página alvo, colocarei um link para votar para a esta.
+        <a href="outra pagina.html" title="outra página" target="_self">Exemplo link 2</a>
+    </p>
+
+
+
+</body>
+
+</html>
